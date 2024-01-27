@@ -4,7 +4,7 @@ def main():
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
-    handler = logging.FileHandler('seminar-15/app_homework-2.log', encoding='utf-8')
+    handler = logging.FileHandler('homework.log', encoding='utf-8')
     handler.setLevel(logging.DEBUG)
 
     console_handler = logging.StreamHandler()
