@@ -1,7 +1,7 @@
 import pytest
 import logging
 from unittest.mock import patch
-from main import main
+from triangle import main
 
 
 @patch('builtins.input', side_effect=[str(3), str(4), str(5)])
